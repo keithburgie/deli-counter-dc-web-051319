@@ -36,7 +36,10 @@ take_a_number(new_deli, "Teresa")
 
 line(new_deli)
 
-def now_serving
+def now_serving(deli)
+  if deli.length == 0 
+    puts "The line is currently empty."
+  else
   #now_serving there are no people in line should say that the line is empty
   #now_serving there are people in line should serve the first person in line and remove them from the queue
   # puts next person in line
