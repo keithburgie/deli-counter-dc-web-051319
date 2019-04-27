@@ -38,6 +38,7 @@ line(new_deli)
 
 def now_serving
   #now_serving there are no people in line should say that the line is empty
+  #now_serving there are people in line should serve the first person in line and remove them from the queue
   # puts next person in line
     # removes them from the front 
   # if no one in line 
