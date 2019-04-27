@@ -14,7 +14,7 @@ def line(array)
         line.push("#{i}. #{person}")
         i += 1
     end
-    puts "The line is currently #{line.join(" ")}"
+    puts "The line is currently: #{line.join(" ")}"
   end
 end
 line(katz_deli)
