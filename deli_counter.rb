@@ -9,7 +9,7 @@ def line(array)
     puts "The line is currently empty."
   else
     i = 1
-    for 
+    array.each do
     puts "The line is currently: #{array}"
   end
 end
