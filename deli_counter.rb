@@ -38,7 +38,7 @@ line(new_deli)
 
 def now_serving(deli)
   if deli.length == 0 
-    puts "The line is currently empty."
+    puts "There is nobody waiting to be served!"
   else
   #now_serving there are no people in line should say that the line is empty
   #now_serving there are people in line should serve the first person in line and remove them from the queue
