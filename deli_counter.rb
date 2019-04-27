@@ -37,6 +37,7 @@ take_a_number(new_deli, "Teresa")
 line(new_deli)
 
 def now_serving
+  #now_serving there are no people in line should say that the line is empty
   # puts next person in line
     # removes them from the front 
   # if no one in line 
