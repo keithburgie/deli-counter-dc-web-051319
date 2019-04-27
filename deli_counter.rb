@@ -1,6 +1,6 @@
 # Write your code here.
 
-katz_deli = []
+katz_deli = ["Keith", "Jeff", "Isaac"]
 
 def line(array)
   # show customer their current place in line
@@ -9,10 +9,15 @@ def line(array)
     puts "The line is currently empty."
   else
     i = 1
-    array.each do
-    puts "The line is currently: #{array}"
+    line = []
+    array.each do |person|
+        line.push("#{i}. #{person}")
+        i += 1
+    end
+    puts "The line is currently #{line.join(" ")}"
   end
 end
+line(katz_deli)
 
 def take_a_number(deliName, customerName)
   # puts the person's name and their position in line
@@ -24,5 +29,3 @@ def now_serving
   # if no one in line 
     # puts "There is nobody waiting to be served!"
 end
-
-line(katz_deli)
