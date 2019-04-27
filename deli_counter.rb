@@ -24,6 +24,7 @@ def take_a_number(deliName, customerName)
   
   #take_a_number there is nobody in line should add a person tothe line
   #take_a_number there are already people in line should add a person to the end of the line
+  #take_a_number adding multiple people in a row should correctly build the line
 end
 
 def now_serving
