@@ -7,6 +7,8 @@ def line(array)
   # if nobody, "The line is currently empty"
   if array.length == 0 
     puts "The line is currently empty."
+  else
+    puts "The line is currently #{array}"
   end
 end
 
