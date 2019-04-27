@@ -21,6 +21,8 @@ line(katz_deli)
 
 def take_a_number(deliName, customerName)
   # puts the person's name and their position in line
+  
+  #take_a_number there is nobody in line should add a person tothe line
 end
 
 def now_serving
